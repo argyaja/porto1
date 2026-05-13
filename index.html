@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athallah Anargya | Data & AI Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0f172a',    // Slate 900
+                        card: '#1e293b',    // Slate 800
+                        tech: '#22d3ee',    // Cyan 400
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['Fira Code', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;700&display=swap');
+        body { background-color: #0f172a; color: #cbd5e1; }
+        .glass-panel { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-tech selection:text-dark">
+
+    <!-- 1. HERO SECTION -->
+    <section class="min-h-screen flex items-center justify-center px-6 pt-20 pb-12">
+        <!-- Container diubah menjadi max-w-4xl agar teks lebih proporsional di tengah layar -->
+        <div class="max-w-4xl mx-auto flex flex-col items-start gap-8">
+            <div class="space-y-6">
+                <p class="text-tech font-mono tracking-wider">Hi, I am</p>
+                <h1 class="text-5xl lg:text-7xl font-bold text-white leading-tight">
+                    Athallah Anargya <br> Yogapranata
+                </h1>
+                <h2 class="text-2xl lg:text-4xl font-semibold text-gray-400">
+                    Data Engineer & AI-focused 
+                </h2>
+                <p class="text-lg lg:text-xl text-gray-400 max-w-2xl leading-relaxed">
+                    Building scalable data pipelines, analytical systems, and intelligent web applications.
+                </p>
+                
+                <!-- Kumpulan Tombol -->
+                <div class="flex flex-wrap items-center gap-4 pt-4">
+                    <a href="#projects" class="bg-tech text-dark font-semibold px-6 py-3 rounded hover:bg-cyan-300 transition duration-300">View Projects</a>
+                    
+                    <!-- Tombol CV -->
+                    <a href="http://127.0.0.1:8000/cv-athallah.pdf" download="CV_Athallah_Anargya.pdf" class="border border-gray-500 text-white px-6 py-3 rounded hover:border-tech hover:text-tech transition duration-300">Download CV</a>                    
+                    <!-- Tombol WhatsApp -->
+                    <a href="https://wa.me/081293610828" target="_blank" class="border border-gray-500 text-white px-6 py-3 rounded hover:border-tech hover:text-tech transition duration-300">Contact Me</a>
+                </div>
+
+                <!-- Ikon Sosial Media -->
+                <div class="flex items-center gap-6 pt-6 text-3xl text-gray-400">
+                    <a href="https://github.com/argyaja" target="_blank" class="hover:text-tech transition"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/athallahanargyay" target="_blank" class="hover:text-tech transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:athallah.anargya03@gmail.com" class="hover:text-tech transition"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- 2. ABOUT ME -->
+    <section id="about" class="py-20 bg-card/30">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-8 border-l-4 border-tech pl-4"><span class="font-mono text-tech text-xl">01.</span> About Me</h2>
+            
+            
+            <div class="grid lg:grid-cols-12 gap-10">
+                
+                <!-- Kolom Teks (Mengambil 7 kolom) -->
+                <div class="lg:col-span-7 space-y-5">
+                    <p class="text-gray-400 leading-relaxed text-justify">
+                        As a Data Science graduate from Telkom University with hands-on internship experience, I approach technology holistically. My work spans the entire software lifecycle—bridging the gap between raw data and <span class="text-white font-semibold">production-ready systems</span> through predictive models, interactive dashboards, and full-stack applications.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed text-justify">
+                        My expertise integrates Data, Backend, and Platform Engineering. Using tools like <span class="text-tech font-mono">Python</span>, <span class="text-tech font-mono">Django</span>, and <span class="text-tech font-mono">Docker</span>, I build everything from intelligent recommendation engines to scalable data pipelines. I am driven by solving complex problems through clean code and reliable architecture.
+                    </p>
+                </div>
+               
+                <div class="lg:col-span-5 grid grid-cols-2 gap-4 content-start">
+                    <div class="glass-panel p-4 rounded-lg border-t-2 border-t-tech text-center hover:-translate-y-1 transition duration-300">
+                        <i class="fas fa-database text-tech text-2xl mb-2"></i>
+                        <h3 class="text-white font-semibold text-sm">Data Engineering</h3>
+                    </div>
+                    <div class="glass-panel p-4 rounded-lg border-t-2 border-t-tech text-center hover:-translate-y-1 transition duration-300">
+                        <i class="fas fa-server text-tech text-2xl mb-2"></i>
+                        <h3 class="text-white font-semibold text-sm">Backend Systems</h3>
+                    </div>
+                    <div class="glass-panel p-4 rounded-lg border-t-2 border-t-tech text-center hover:-translate-y-1 transition duration-300">
+                        <i class="fas fa-brain text-tech text-2xl mb-2"></i>
+                        <h3 class="text-white font-semibold text-sm">AI Applications</h3>
+                    </div>
+                    <div class="glass-panel p-4 rounded-lg border-t-2 border-t-tech text-center hover:-translate-y-1 transition duration-300">
+                        <i class="fas fa-robot text-tech text-2xl mb-2"></i>
+                        <h3 class="text-white font-semibold text-sm">Automation & DevOps</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. TECH STACK -->
+    <section class="py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-10 border-l-4 border-tech pl-4"><span class="font-mono text-tech text-xl">02.</span> Technical Skills</h2>
+            
+            <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
+                <!-- Box 1 -->
+                <div class="glass-panel p-5 rounded-lg">
+                    <h3 class="text-white font-semibold mb-4 border-b border-gray-600 pb-2">Languages</h3>
+                    <ul class="space-y-2 font-mono text-sm text-gray-400">
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Python</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>JavaScript</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Go</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>SQL</li>
+                    </ul>
+                </div>
+                <!-- Box 2 -->
+                <div class="glass-panel p-5 rounded-lg">
+                    <h3 class="text-white font-semibold mb-4 border-b border-gray-600 pb-2">Backend/Web</h3>
+                    <ul class="space-y-2 font-mono text-sm text-gray-400">
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Django</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Laravel</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>REST API</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Tailwind/ Bootstrp</li>
+                    </ul>
+                </div>
+                <!-- Box 3 -->
+                <div class="glass-panel p-5 rounded-lg">
+                    <h3 class="text-white font-semibold mb-4 border-b border-gray-600 pb-2">Data & ML</h3>
+                    <ul class="space-y-2 font-mono text-sm text-gray-400">
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Pandas/Scikit</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>PyTorch</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>NLP</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Computer Vision</li>
+                    </ul>
+                </div>
+                <!-- Box 4 -->
+                <div class="glass-panel p-5 rounded-lg">
+                    <h3 class="text-white font-semibold mb-4 border-b border-gray-600 pb-2">Data Eng</h3>
+                    <ul class="space-y-2 font-mono text-sm text-gray-400">
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Kafka & Addax</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>PostgreSQL</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>MongoDB</li>
+                    </ul>
+                </div>
+                <!-- Box 5 -->
+                <div class="glass-panel p-5 rounded-lg">
+                    <h3 class="text-white font-semibold mb-4 border-b border-gray-600 pb-2">Platform/DevOps</h3>
+                    <ul class="space-y-2 font-mono text-sm text-gray-400">
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Docker</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Kubernetes</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>GitLab CI/CD</li>
+                        <li><i class="fas fa-caret-right text-tech mr-2"></i>Azure & Nutanix</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. FEATURED PROJECTS -->
+    <section id="projects" class="py-20 bg-card/30">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-12 border-l-4 border-tech pl-4"><span class="font-mono text-tech text-xl">03.</span> Featured Architecture & Projects</h2>
+
+            <div class="space-y-16">
+                
+                <!-- Project A: Hotel Review Sentiment Analysis -->
+                <div class="grid lg:grid-cols-2 gap-8 items-center">
+                    <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-700 group">
+                        <!-- BAGIAN GAMBAR 1 -->
+                        <div class="h-64 w-full overflow-hidden">
+                            <img src="images/hotel-review.png" alt="Hotel Review Pipeline" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-500">
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Hotel Review Sentiment Analysis</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Processing 20K+ reviews using a full Databricks workflow.</p>
+                        
+                        <div class="mb-4">
+                            <span class="text-tech font-semibold text-sm">The Architecture:</span>
+                            <p class="text-sm text-gray-400 mt-1">TF-IDF Vectorization → SMOTE (Class Imbalance) → Logistic Regression → Pipeline Evaluation.</p>
+                        </div>
+                        <div class="mb-4">
+                            <span class="text-tech font-semibold text-sm">Impact:</span>
+                            <p class="text-sm text-gray-400 mt-1">Achieved 90% accuracy in classifying contextual sentiments, enabling automated hotel quality assurance.</p>
+                        </div>
+                        
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-xs font-mono bg-dark px-2 py-1 rounded text-tech">Databricks</span>
+                            <span class="text-xs font-mono bg-dark px-2 py-1 rounded text-tech">Scikit-Learn</span>
+                            <span class="text-xs font-mono bg-dark px-2 py-1 rounded text-tech">NLP</span>
+                        </div>
+                        <a href="https://github.com/argyaja/Analisis-Sentimen" target="_blank" class="text-white hover:text-tech text-sm font-semibold transition"><i class="fab fa-github mr-2"></i>View Source</a>
+                    </div>
+                </div>
+
+                <!-- Project C: Foreign Language Learning App -->
+                <div class="grid lg:grid-cols-2 gap-8 items-center lg:flex-row-reverse">
+                    
+                    <div class="order-1 lg:order-2 bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-700 group">
+                        <!-- BAGIAN GAMBAR 2 -->
+                        <div class="h-64 w-full overflow-hidden">
+                            <img src="images/app.png" alt="Foreign Language App" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-500">
+                        </div>
+                    </div>
+                    
+                    <div class="order-2 lg:order-1">
+                        <h3 class="text-2xl font-bold text-white mb-2">Foreign Language Learning App</h3>
+                        <p class="text-gray-400 mb-4 text-sm">A collaborative full-stack web application with gamified learning experiences.</p>
+                        
+                        <div class="mb-4">
+                            <span class="text-tech font-semibold text-sm">Architecture & Design:</span>
+                            <p class="text-sm text-gray-400 mt-1">Built using Django MVC architecture with a robust relational database design (ERD) to manage complex user data.</p>
+                        </div>
+                        <div class="mb-4">
+                            <span class="text-tech font-semibold text-sm">Key Features:</span>
+                            <p class="text-sm text-gray-400 mt-1">Implemented a gamification system complete with user progress tracking and a dynamic leaderboard to boost engagement.</p>
+                        </div>
+                        
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-xs font-mono bg-dark px-2 py-1 rounded text-tech">Django</span>
+                            <span class="text-xs font-mono bg-dark px-2 py-1 rounded text-tech">Fullstack</span>
+                            <span class="text-xs font-mono bg-dark px-2 py-1 rounded text-tech">SQL/ERD</span>
+                            <span class="text-xs font-mono bg-dark px-2 py-1 rounded text-tech">Team Collaboration</span>
+                        </div>
+                        
+                        <!-- Links (Live Demo dihapus) -->
+                        <div class="flex space-x-4">
+                            <a href="#" target="_blank" class="text-white hover:text-tech text-sm font-semibold transition"><i class="fab fa-github mr-2"></i>View Source</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5 & 6. EXPERIENCE & DASHBOARD -->
+    <section class="py-20">
+        <div class="max-w-5xl mx-auto px-6 grid lg:grid-cols-2 gap-12">
+            <!-- Timeline -->
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-8 border-l-4 border-tech pl-4"><span class="font-mono text-tech text-xl">04.</span> Experience</h2>
+                <div class="border-l-2 border-gray-700 ml-3 space-y-8 pb-4">
+                    <div class="relative pl-6">
+                        <div class="absolute -left-1.5 top-1.5 w-3 h-3 bg-tech rounded-full shadow-[0_0_10px_#22d3ee]"></div>
+                        <h3 class="text-lg font-bold text-white">Data Engineer and Platform Engineer</h3>
+                        <p class="text-tech text-sm mb-2">PT Tabel Data Informatika • 2024</p>
+                        <p class="text-sm text-gray-400">Architected backend systems and integrated CI/CD workflows reducing deployment times. Managed platform infrastructure on Azure.</p>
+                    </div>
+                    <div class="relative pl-6">
+                        <div class="absolute -left-1.5 top-1.5 w-3 h-3 bg-gray-500 rounded-full"></div>
+                        <h3 class="text-lg font-bold text-white">Fullstack Developer</h3>
+                        <p class="text-tech text-sm mb-2">Telkom University • 2024</p>
+                        <p class="text-sm text-gray-400">Developed academic portals and data management systems bridging internal databases with frontend analytics.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Showcase -->
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-8 border-l-4 border-tech pl-4"><span class="font-mono text-tech text-xl">05.</span> BI Analytics</h2>
+                <div class="bg-card rounded-lg p-4 border border-gray-700">
+                    <div class="bg-gray-900 rounded mb-4 overflow-hidden border border-gray-800 group">
+                        <img src="images/power-BI.jpeg" alt="Sales Dashboard" class="w-full h-auto object-contain transform group-hover:scale-105 transition duration-500">
+                    </div>
+                    <h3 class="text-white font-bold mb-1">Interactive Sales Dashboard</h3>
+                    <p class="text-sm text-gray-400">Translating raw data into actionable insights tracking Revenue Trends, KPI Cards, and Customer Segmentation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. CONTACT & FOOTER -->
+    <footer id="contact" class="bg-card/50 py-12 border-t border-gray-800 text-center mt-20">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-4">Get In Touch</h2>
+            <p class="text-gray-400 mb-8">Whether you have a question about data infrastructure or want to build an intelligent web app, my inbox is always open.</p>
+            <a href="mailto:athallah.anargya03@gmail.com" class="inline-block border border-tech text-tech hover:bg-tech hover:text-dark font-semibold px-8 py-3 rounded transition duration-300">
+                Say Hello
+            </a>
+            
+            <div class="mt-12 flex justify-center space-x-6 text-gray-500">
+                <a href="https://github.com/argyaja" target="_blank" class="hover:text-white transition"><i class="fab fa-github text-xl"></i></a>
+                <a href="https://linkedin.com/in/athallahanargyay" target="_blank" class="hover:text-white transition"><i class="fab fa-linkedin text-xl"></i></a>
+                <a href="https://wa.me/628194610828" target="_blank" class="hover:text-white transition"><i class="fab fa-whatsapp text-xl"></i></a>
+            </div>
+            <p class="text-gray-600 text-sm mt-6 font-mono">
+                Built with <span class="text-tech">Laravel</span> & Tailwind. <br>
+                &copy; 2025 Athallah Anargya Yogapranata.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
